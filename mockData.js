@@ -1,0 +1,87 @@
+let resList = [
+  {
+    id: "709685",
+    name: "Sloppy Seigneur",
+    cloudinaryImageId: "eb67215add430d5a9ecced1b08ff07c5",
+    costForTwo: "57210",
+    cuisines: ["Burgers"],
+    avgRating: 4.5,
+  },
+
+  {
+    id: "18618",
+    name: "Hite Bar",
+    cloudinaryImageId: "grggamxvlkzkoafhxg8m",
+    costForTwo: "324000 ",
+    cuisines: ["Lebanese", "Fast Food"],
+    avgRating: 3.7,
+  },
+
+  {
+    id: "618870",
+    name: "Burger King",
+    cloudinaryImageId: "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+    costForTwo: "482000 ",
+    cuisines: ["American"],
+    avgRating: 4.1,
+  },
+  {
+    id: "23726",
+    name: "McDonald's",
+    cloudinaryImageId: "405645b3118d83e89db4c65361e43733",
+    costForTwo: "458000 ",
+    cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
+    avgRating: 3.5,
+  },
+  {
+    id: "313404",
+    name: "KFC",
+    cloudinaryImageId: "f01666ac73626461d7455d9c24005cd4",
+    costForTwo: "₹400 for two",
+    cuisines: ["Burgers", "Biryani"],
+    avgRating: 4.1,
+    costForTwo: "150000 ",
+  },
+  {
+    id: "100452736",
+    name: "Chicken 65",
+    cloudinaryImageId: "lrkgbs0ohrvrzmdr7wyc",
+    cuisines: ["pasta", "Biryani", "Snacks"],
+    costForTwo: "505000",
+    avgRating: 5.0,
+  },
+  {
+    id: "557726",
+    name: "Flavours Of Andhra",
+    cloudinaryImageId: "jl9r4xgmshml6irbwxbg",
+    cuisines: ["pasta", "Biryani", "Snacks"],
+    costForTwo: "115000",
+    avgRating: 3.9,
+  },
+  {
+    id: "94057445",
+    name: "Konaseema Kodi Vepudu",
+    cloudinaryImageId: "2fba6d999a1b8c7e16914ac7fad57b23",
+    cuisines: ["pasta", "Biryani", "Snacks"],
+    costForTwo: "225000",
+    avgRating: 4.2,
+  },
+  {
+    id: "459463",
+    name: "Turndoor",
+    cloudinaryImageId: "foeylzvcrumszpbnwvns",
+    cuisines: ["pasta"],
+    costForTwo: "200000",
+    avgRating: 4.5,
+  },
+  {
+    id: "114407977",
+    name: "Chicken Tikka",
+    cloudinaryImageId: "11d3c61084b9abae54f0d847ce331fcb",
+    cuisines: ["Snacks"],
+    costForTwo: "300000 ",
+    avgRating: 4.9,
+  },
+];
+
+export default resList;

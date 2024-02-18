@@ -1,0 +1,108 @@
+/coverage
+/dist
+.parcel-cache
+./node_modules
+./UserClass
+./User
+
+
+
+
+
+
+// //React Element
+// const heading = React.createElement("h1", { id: "heading" }, "Hello React");
+
+// console.log(heading);
+
+// //JSX - like HTML or XML -llike syntax
+// //(JSX - bebel transpied before it reaches the JS is DONE by Parcel & Babel)
+
+// const jsxHeading = (
+//   <h1 className="head" tabIndex="5">
+//     Hello react using JSX
+//   </h1>
+// );
+// console.log(jsxHeading);
+
+// const titile = "hello";
+
+// const Heading = () => (
+//   <h1 className="head" tabIndex="5">
+//     Hello react using JSX
+//   </h1>
+// );
+// console.log(<Heading />);
+
+// //React Functional Component:
+
+// // const HeadingComponent = () =>{
+// //     return <h1>This is a react Functional Component</h1>
+// // }
+
+// //Component Composition in React (1 fun Comp. into another fun Comp.)
+
+// const HeadingComponent1 = () => (
+//   <div id="container" xyz = "abc">
+//     {<h1>titile</h1>}
+//     { Heading()}
+//    {heading}
+//     <h1 className="header">This is a react Functional Component !!!!</h1>
+//   </div>
+// );
+
+
+
+// const About = () => {
+//   return (
+//     <div className="aboutSpace">
+//       <h1>About</h1>
+//       <p>Welcome to my first React website!</p>                                 //   Functional Components
+//       <p>
+//         I'm passionate about web development and decided to build this website
+//         using React to showcase my skills and projects.
+//       </p>
+//       <h2><User name= {"Mahii The Star"} /></h2>
+//       <h2><UserClass name= {" Mahesh Chavhan"} location ={" Pathardi"} /></h2>
+
+//     </div>
+//   );
+
+
+  <h5>count:{count}</h5>
+        <button
+          onClick={() => {
+            this.setState({
+              count: this.state.count + 1,          // Increase the number by 1 every time using classbased Component
+            })
+          }}
+        >
+          clickHereToIncrease
+        </button>  
+
+
+
+        
+  async componentDidMount() {
+    // console.log(this.props.name + "Child Did mount");
+    // const data = await fetch("https://api.github.com/users/ChavhanMahesh956");
+    // const json = await data.json();
+
+    // this.setState({
+    //   userinfo: json,
+    // });
+
+    // console.log(json);
+  }
+
+  componentDidUpdate(){
+    // console.log("ComponentDid Update");
+  }
+
+  componentWillUnmount(){
+    // console.log("ComponentWill Unmount");
+  }
+
+  render() {
+    // const { name, location } = this.props;
+    // const { count } = this.state;
